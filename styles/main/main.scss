@@ -1,0 +1,51 @@
+@import url(./main-div/main-div.css);
+@font-face {
+  font-family: "volk";
+  src: url("../../fonts/Vollkorn-VariableFont_wght.ttf");
+}
+main{
+  width: 100%;
+  img{
+    width: 100%;
+  }
+ 
+}
+ .main-desc {
+   width: 100%;
+   background-color: #FEFEC9;
+
+   .desc-paragraph{
+      display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 60px 250px;
+        p{
+      width: 75%;
+      text-align: center;
+      font-weight: 400;
+      line-height: 25px;
+      font-size: 18px;
+      font-family: "volk";
+        }
+        button{
+          padding: 13px 34px;
+          font-family: "volk";
+          font-weight: 400px;
+          font-size: 16px;
+          line-height: 20px;
+          text-align: center;
+          background-color: #FEFEC9;
+          cursor: pointer;
+          &:hover{
+            background-color: #ededd4;
+            transition: 0.3s;
+            &:active{
+              background-color: #b5b5a2;
+              transition: 0.3s;
+            }
+          }
+        }
+   }
+ }
